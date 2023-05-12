@@ -1,0 +1,61 @@
+#home{
+    .style-shadow{
+        transition: 0.5s;
+
+        .card-content{
+            height: 300px !important;
+            .v-carousel-item{
+                transition-delay: 5s;
+
+                img{
+                    height: 300px;
+                    border-radius: 3px 3px 0 0;
+                }
+        }
+        }
+        .class-image{
+            padding: 0.25rem;
+            img{
+                height: 300px;
+                border-radius: 3px;
+            }
+        }
+        .txt-content{
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        
+        .style-btn{
+            text-transform: uppercase;
+            text-align: center;
+            padding-bottom: 2rem;
+            .btn{
+                width: 50%;
+                height: auto;
+                padding: 10px 0;
+                color: #fff;
+                background-color: red;
+                border-radius: 5px;
+                font-size: 18px;
+                font-weight: bold;
+                text-shadow: 1px 1px 1.5px #b9b9b9 ;
+            }
+        }
+    }
+
+    .style-shadow:hover{
+        transition: 0.5s;
+        box-shadow: 4px 4px 20px 6px rgb(229, 229, 229);
+    }
+
+    .txt-anemetion{
+        text-align: center;
+        padding-top:25px ;
+        padding-bottom: 50px;
+        color: red;
+    }
+}

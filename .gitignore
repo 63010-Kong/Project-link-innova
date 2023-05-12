@@ -1,0 +1,68 @@
+###################
+# Laravel Default #
+###################
+
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+
+######################
+# Ignore Sass cache #
+######################
+*.sass-cache
+/.sass-cache
+
+#########################
+# Ignore CSS & Map File #
+#########################
+*.map
+
+#################################
+# IDE and editor specific files #
+#################################
+/nbproject
+.idea
+/.project
+/.buildpath
+/.settings/
+
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+#############################
+# Ignore npm compiled files #
+#############################
+/resources/views/vendor
+/public/sitemap.xml
+/public/vendor
+/public/css
+/public/css/app.css
+/public/js/app.js
+/public/js/*.txt
+/public/js
+/public/images/upload
+/public/mix-manifest.json
+composer.lock
+package-lock.json
+

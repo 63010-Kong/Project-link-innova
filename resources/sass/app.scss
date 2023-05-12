@@ -1,0 +1,23 @@
+// Fonts
+// @import url('https://fonts.bunny.net/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+
+// Variables
+@import 'variables';
+@import 'global';
+@import 'appbar';
+@import 'footer';
+@import 'home';
+@import 'login';
+
+@import 'backend/global';
+
+@import 'media/global';
+
+// Normalize CSS
+@import '~normalize.css/normalize.css';
+@import '~bootstrap/scss/bootstrap';
+
+#app{
+    font-family: 'Noto Sans Thai', sans-serif;
+}

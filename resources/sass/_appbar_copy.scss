@@ -1,0 +1,103 @@
+#app-bar{
+    background-color: transparent;
+    box-shadow: none;
+    transition: 0.3s;
+    user-select: none;
+    .style-logo{
+        transition: 0.3s;
+        width: 60%;
+        margin-left: 1.25rem;
+    }
+
+    .i-menu{
+        margin-right: 5%;
+        color: #fff;
+        i{
+            padding: 1rem;
+            background: #000;
+            border-radius: 100%;
+            font-size: 26px;
+        }
+    }
+
+    .menu-bar{
+        margin: 0;
+
+        ul{
+            list-style: none;
+            li{
+                color: #fff;
+                display: inline;
+                margin-left: 2rem;
+                font-weight:bold;
+
+                span{
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+                span:hover{
+                    color: red;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .icon-login{
+        text-align: end;
+        font-size: 18px;
+        margin-bottom: 5px;
+        padding:0 ;
+
+        ul{
+            list-style: none;
+
+            li{
+                display: inline;
+                margin-left: 1rem;
+
+                i{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    a{
+        color: #fff;
+        // color: #ffbb00;
+        text-decoration: none;
+    }
+    a:hover{
+            color: red;
+        }
+    }
+    .router-link-exact-active{
+        font-weight: bold !important;
+        color: red !important;
+    }
+  header.sticky#app-bar{
+    height:auto;
+    padding-top: 0.5rem;
+    background: #323232;
+    transition: 0.3s;
+    .style-logo{
+        transition: 0.3s;
+        width: 65%;
+        margin-left: 1.25rem;
+    }
+    .menu-bar{
+        transition: 0.3s;
+        margin-top: 0.5rem;
+    }
+  }
+
+  #dropdown-munu{
+    a{
+        color: #000;
+        text-decoration: none ;
+        font-weight:bold;
+    }
+    a:hover{
+        color: red;
+    }
+}

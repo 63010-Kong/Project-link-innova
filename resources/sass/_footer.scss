@@ -1,0 +1,54 @@
+.footer{
+    height: auto;
+    padding: 2rem !important;
+    // padding-bottom: 2rem !important;
+    background-color: #323232 !important;
+    text-transform: uppercase;
+
+    .v-img{
+        width: 50%;
+    }
+    
+    .txt-menu{
+        margin: 3rem 0;
+        a{
+            color: #fff;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: red;
+        }
+        .router-link-exact-active{
+            color: red;
+        }
+    }
+    
+
+    .style-content{
+        p{
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .style-facebook{
+            margin-top: 15px;
+            color: #fff;
+            a{
+                color: #fff;
+                text-transform: uppercase;
+                font-style: italic;
+                font-size: 18px;
+                vertical-align: middle;
+            }
+            a:hover{
+                color: rgb(0, 8, 255);
+            }
+            i{
+                font-size: 36px;
+                margin-right: 1.5rem;
+            }
+        }
+    }
+}

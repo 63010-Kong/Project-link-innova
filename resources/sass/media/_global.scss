@@ -1,0 +1,426 @@
+
+// Medium devices (tablets, 600px and up)
+@media (min-width: $media-breakpoint-sm) {
+  .banner{
+    transition: 5s;
+    .bg-text{
+      font-size: 12px;
+      text-align: center;
+      background: #000000bb;
+      color: #ffffff;
+      border-radius: 7px;
+      width: 50%;
+      p{
+        text-transform: uppercase;
+      }
+    }
+  }
+  header.sticky#app-bar{
+    height:auto;
+    transition: 0.3s;
+    .style-logo{
+      transition: 0.3s;
+      width: 65%;
+      margin-left: 1.25rem;
+    }
+    .menu-bar{
+      transition: 0.3s;
+      margin-top: 0.5rem;
+    }
+  }
+  
+  .footer{
+    height: auto;
+    background-color: #323232 !important;
+    text-transform: uppercase;
+
+    .v-img{
+      width: 50%;
+      margin-bottom: 1.5rem;
+    }
+    
+    .txt-menu{
+      margin-bottom: 1.5rem;
+      a{
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover{
+        color: red;
+      }
+      .router-link-exact-active{
+        color: red;
+      }
+    }
+    .style-content{
+      p{
+          font-size: 18px;
+          color: #fff;
+      }
+
+      .style-facebook{
+        margin-top: 15px;
+        color: #fff;
+        a{
+          color: #fff;
+          text-transform: uppercase;
+          font-style: italic;
+          font-size: 18px;
+          vertical-align: middle;
+        }
+        a:hover{
+          color: rgb(0, 8, 255);
+        }
+        i{
+          font-size: 36px;
+          margin-right: 1.5rem;
+        }
+      }
+    }
+  }
+}
+  
+  // Medium devices (tablets, 960px and up)
+@media (min-width: $media-breakpoint-md) {
+  .icon-login{
+    padding-top:1rem;
+    color: #fff;
+    text-align: start;
+    font-size: 18px;      
+
+    ul{
+      list-style: none;
+      li{
+        display: inline;
+        margin-left: 1.5rem;
+
+        i{
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  .media-menu{
+    margin-top: 1rem;
+    ul{
+      list-style: none;
+      padding: 0;
+      li{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        color: #fff;
+        a,span{
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #fff;
+          font-size: 18px;
+          margin-left: 1.5rem;
+        }
+        .submenu{
+          background-color: #2C2C2C;
+          .f-side{
+            font-size: 16px !important;
+            margin-left: 2rem;
+          }
+        }
+
+        .v-list-item--density-default:not(.v-list-item--nav).v-list-item--one-line {
+          padding-inline-start: 0px !important;
+        }
+      }
+    }
+  } 
+
+  #dropdown-munu{
+    a{
+      color: #000;
+      text-decoration: none ;
+      font-weight:bold;
+    }
+    a:hover{
+      color: red;
+    }
+  }
+
+  #app-bar{
+    background-color: transparent;
+    box-shadow: none;
+    transition: 0.3s;
+    user-select: none;
+    .style-logo{
+      transition: 0.3s;
+      width: 60%;
+      margin-left: 1.25rem;
+    }
+    .menu-bar{
+      margin: 0;
+
+      ul{
+        list-style: none;
+        li{
+          color: #fff;
+          display: inline;
+          margin-left: 2rem;
+          font-weight:bold;
+
+          span{
+            font-weight: bold;
+            cursor: pointer;
+          }
+          span:hover{
+            color: red;
+          }
+        }
+      }
+    }
+  
+    .icon-login{
+      text-align: end;
+      font-size: 18px;
+      padding:0 ;
+
+      ul{
+        list-style: none;
+
+        li{
+          display: inline;
+          margin-left: 1rem;
+
+          i{
+            font-size: 22px;
+          }
+        }
+      }
+    }
+    a{
+      color: #fff;
+      text-decoration: none;
+    }
+    a:hover{
+      color: red;
+    }
+  }
+  .router-link-exact-active{
+    font-weight: bold;
+    color: red !important;
+  }
+
+  header.sticky#app-bar{
+    height:auto;
+    padding-top: 0.5rem;
+    transition: 0.3s;
+    .style-logo{
+      transition: 0.3s;
+      width: 65%;
+      margin-left: 1.25rem;
+    }
+    .menu-bar{
+      text-align: end;
+      transition: 0.3s;
+      margin-top: 0.5rem;
+    }
+  }
+  .bg-parallax-contant{
+    .bg-text{
+      .txt-end{
+        padding-bottom: 3rem;
+        text-align: end;
+      }
+    }
+  }
+
+  .banner{
+    transition: 5s;
+    .bg-text{
+      font-size: 14px;
+      text-align: center;
+      background: #000000bb;
+      color: #ffffff;
+      border-radius: 7px;
+      width: 40%;
+      p{
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .style-btn{
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2rem;
+    .btn{
+      width: 50%;
+      height: auto;
+      padding: 10px 0;
+      color: #fff;
+      background-color: red;
+      border-radius: 5px !important;
+      font-size: 18px;
+      font-weight: bold;
+      text-shadow: 1px 1px 1.5px #b9b9b9 ;
+    }
+  }
+
+  .footer{
+    height: auto;
+    background-color: #323232 !important;
+    text-transform: uppercase;
+    
+    .txt-menu{  
+      margin: 3rem 0;
+      a{
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover{
+        color: red;
+      }
+
+      .router-link-exact-active{
+        color: red;
+      }
+    }
+    
+    .style-content{
+      text-align: start;
+      p{
+        font-size: 18px;
+        color: #fff;
+      }
+
+      .style-facebook{
+        margin-top: 15px;
+        color: #fff;
+        a{
+          color: #fff;
+          text-transform: uppercase;
+          font-style: italic;
+          font-size: 18px;
+          vertical-align: middle;
+        }
+        a:hover{
+          color: rgb(0, 8, 255);
+        }
+        i{
+          font-size: 36px;
+          margin-right: 1.5rem;
+        }
+      }
+    }
+  }
+}
+  
+// Medium devices (tablets, 1280px and up)
+@media (min-width: $media-breakpoint-lg) {
+    .banner{
+      transition: 5s;
+      .bg-text{
+        font-size: 18px;
+        text-align: center;
+        background: #000000bb;
+        color: #ffffff;
+        border-radius: 7px;
+        width: 40%;
+        p{
+          text-transform: uppercase;
+        }
+      }
+    }
+    header.sticky#app-bar{
+      height:auto;
+      padding-top: 0.5rem;
+      background: #323232;
+      transition: 0.3s;
+      .style-logo{
+        transition: 0.3s;
+        width: 65%;
+        margin-left: 1.25rem;
+      }
+      .menu-bar{
+        text-align: end;
+        transition: 0.3s;
+        margin-top: 0.5rem;
+      }
+    }
+    
+    // Style Button 
+    .style-btn{
+      text-transform: uppercase;
+      text-align: center;
+      padding-bottom: 2rem;
+      .btn{
+        width: 50%;
+        height: auto;
+        padding: 10px 0;
+        color: red !important;
+        background-color: #fff !important;
+        border: 2px solid red;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1.5px #b9b9b9 ;
+      }
+      .btn:hover{
+        background-color: red !important;
+        color:#fff !important;
+      }
+    }
+
+    .footer{
+      height: auto;
+      background-color: #323232 !important;
+      text-transform: uppercase;
+  
+      .v-img{
+        width: 70%;
+      }
+      
+      .txt-menu{
+        margin: 0;
+        a{
+          color: #fff;
+          font-size: 18px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        a:hover{
+          color: red;
+        }
+
+        .router-link-exact-active{
+          color: red;
+        }
+      }
+      
+      .style-content{
+        p{
+          font-size: 18px;
+          color: #fff;
+        }
+  
+        .style-facebook{
+          margin-top: 15px;
+          color: #fff;
+          a{
+            color: #fff;
+            text-transform: uppercase;
+            font-style: italic;
+            font-size: 18px;
+            vertical-align: middle;
+          }
+          a:hover{
+            color: rgb(0, 8, 255);
+          }
+          i{
+            font-size: 36px;
+            margin-right: 1.5rem;
+          }
+        }
+      }
+    }
+  }
